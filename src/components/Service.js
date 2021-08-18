@@ -4,6 +4,7 @@ function Service() {
     return (
         <div className='service_container' >
            <h1>Our Services</h1>
+           <h1>What we offer</h1>
            <div className='sercice_row'>
                <div className='service_item'></div>
            </div>
