@@ -1,14 +1,16 @@
 
 import AboutUs from './components/AboutUs'
-import Banner from './components/Banner'
+import BannerInfo from './components/BannerInfo'
 import Navbar from './components/Navbar'
+import Service from './components/Service'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Banner/>
+      <BannerInfo/>
       <AboutUs/>
+      <Service/>
     </div>
   );
 }
