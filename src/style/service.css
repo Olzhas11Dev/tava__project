@@ -1,0 +1,50 @@
+.service_container {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  background-color: rgb(236, 236, 236);
+  padding-bottom: 400px;
+}
+
+.service_transparentTitle {
+  font-size: 120px;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.service_container_slice {
+  display: flex;
+}
+
+.service_container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(90, 90, 90);
+  margin-bottom: 40px;
+}
+
+.service_container span {
+  color: rgb(51, 104, 198);
+}
+
+.service_row {
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: auto;
+}
+
+.service_card {
+  min-width: 25%;
+  margin: 5px;
+  height: 300px;
+  background-color: white;
+}
+
+.service_item {
+  color: rgb(51, 104, 198);
+  text-transform: uppercase;
+  font-weight: 600;
+}

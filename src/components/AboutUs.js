@@ -57,7 +57,7 @@ function AboutUs() {
                     <div className='about_list_details'> <span>✔</span> 
                     All reports for clients are made simple and easy to understand</div>
                 </section>
-                <button className='about_btn' >Watch About Us</button>
+                <a href="https://www.youtube.com/watch?v=rx8KuOt2IEM" target='blank'><button className='about_btn' > Watch About Us </button></a>
             </div>
         </div>
     )

@@ -126,6 +126,16 @@
   background-color: rgb(51, 104, 198);
   color: white;
   border-radius: 50px;
+  cursor: pointer;
+}
+
+.about_btn:hover {
+  background-color: rgb(40, 82, 155);
+}
+
+.about_btn a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Media */
