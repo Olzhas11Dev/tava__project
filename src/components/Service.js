@@ -26,7 +26,6 @@ const[chosenObject,setChosenObject] = useState('')
 }
 
 function showDetails(element){
-
     setModal(true)
    serviceDb.map((item)=>{
       if(element.id===item.id){
@@ -35,7 +34,7 @@ function showDetails(element){
      return item
    })
 }
-console.log(chosenObject,chosenObject.description)
+
     return (
         <div className='service_container' >
            <div className='service_transparentTitle'>Our Services</div>
