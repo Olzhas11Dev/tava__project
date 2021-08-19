@@ -4,6 +4,7 @@ import BannerInfo from './components/BannerInfo'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
 import Testimonials from './components/Testimonials'
+import Vlog from './components/Vlog'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs/>
       <Service/>
       <Testimonials/>
+      <Vlog/>
     </div>
   );
 }

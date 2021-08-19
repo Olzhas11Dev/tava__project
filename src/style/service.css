@@ -44,6 +44,7 @@
 }
 
 .service_card {
+  cursor: pointer;
   min-width: 24%;
   margin: 0.5%;
   height: 300px;
@@ -101,7 +102,7 @@
 .service_modal_conatiner {
   position: relative;
   justify-content: space-between;
-  margin: 160px auto;
+  margin: 120px auto;
   width: 50%;
   height: 400px;
   background-color: white;

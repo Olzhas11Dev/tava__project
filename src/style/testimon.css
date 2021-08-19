@@ -2,14 +2,96 @@
   width: 100%;
   height: 400px;
   display: flex;
+  align-items: center;
 }
 
 .testimon_Left,
 .testimon_right {
   width: 20%;
-  background-color: rgb(51, 104, 198);
+  background-color: rgb(236, 236, 236);
+  opacity: 90%;
+  overflow: hidden;
+}
+
+.testimon_Left img,
+.testimon_right img {
+  width: 140%;
 }
 
 .testimon_review {
   width: 60%;
+}
+
+.testim_title {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 30px;
+  opacity: 10%;
+}
+
+.testimon_card_section {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.testimon_card_section::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.testim_oneCard {
+  height: 200px;
+  min-width: 100%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testim_btn_esction {
+  width: 80px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.testimon_text_content {
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 40px;
+  font-size: 20px;
+  color: gray;
+  font-style: italic;
+}
+
+.testim_name {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.testim_role {
+  text-align: center;
+  color: rgb(51, 104, 198);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* style Radio Button */
+
+.testim_btnRadio {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: rgb(51, 104, 198);
 }
