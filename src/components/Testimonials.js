@@ -70,7 +70,7 @@ function Testimonials() {
           
                <div className=" testim_btn_esction ">{radioBtn.map((button)=>{
                     return ( 
-                        <input className='testim_btnRadio' onChange={(event)=>changeStatus(event,button)} type="radio"  checked={button.status} key={button.id}/>
+                        <input className='testim_btnRadio'  onChange={(event)=>changeStatus(event,button)} type="radio"  checked={button.status} key={button.id}/>
                     )
                 })}
             </div>

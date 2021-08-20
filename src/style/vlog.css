@@ -21,7 +21,7 @@
 .oneVlog {
   cursor: pointer;
   width: 33.33%;
-  margin-bottom: -4px;
+  height: 285px;
   position: relative;
 }
 
@@ -46,4 +46,42 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.player-wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  bottom: 830px;
+  left: 20%;
+  z-index: 99;
+}
+
+.vlog_vlose_btn {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 0;
+  right: -40px;
+  z-index: 999;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+.overflow-hidden {
+  height: 100vh;
+  overflow-y: hidden;
 }
