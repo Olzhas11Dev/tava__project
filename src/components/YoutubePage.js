@@ -13,7 +13,7 @@ function YoutubePage() {
       }, [openModal]);
     
 
-     // When we click outside it closes 
+    //  When we click outside it closes 
    useEffect(()=>{
        let handler = document.addEventListener('mousedown',function(){
         setOpenModal(false)

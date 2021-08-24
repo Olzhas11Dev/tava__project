@@ -131,6 +131,7 @@
 
 .about_btn:hover {
   background-color: rgb(40, 82, 155);
+  transition: 0.1s linear;
 }
 
 .about_btn a {

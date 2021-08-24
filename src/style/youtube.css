@@ -32,11 +32,16 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-color: blue;
+  background-color: rgb(231, 231, 245);
   width: 100%;
   height: 100%;
-  opacity: 0.1;
+  opacity: 0.3;
   cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.youtube_mask:hover {
+  opacity: 0;
 }
 
 .youtube_bg {
@@ -52,9 +57,9 @@
 
 .youtube_modal {
   justify-content: space-between;
-  margin: 120px auto;
-  width: 50%;
-  height: 400px;
+  margin: 90px auto;
+  width: 70%;
+  height: 504px;
   position: relative;
 }
 

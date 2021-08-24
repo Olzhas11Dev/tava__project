@@ -14,8 +14,8 @@ function ContactUs() {
                     <div className='conatct_socials_icons' >
                         <a href="https://www.facebook.com/" target='blank' ><FaFacebookF/></a> 
                         <a href="https://www.instagram.com/" target='blank' ><FaInstagram/></a>
-                        <a href="https://twitter.com/?lang=en"> <FaTwitter target='blank'/></a>
-                        <a href="https://www.youtube.com/"> <FaYoutube target='blank'/></a>
+                        <a href="https://twitter.com/?lang=en" target='blank' > <FaTwitter target='blank'/></a>
+                        <a href="https://www.youtube.com/" target='blanket' > <FaYoutube target='blank'/></a>
                     </div>
                 </div>
                 
