@@ -4,7 +4,7 @@ const  vlog = [
         image:'./image/doc1.png',
         vlogName:"Our Lab",
         vlogDescription:'Clinic',
-        path:'https://youtu.be/7sDY4m8KNLc'
+        path:'//www.youtube.com/embed/k1ws4n7ospA"'
     },
     {
         id:1,

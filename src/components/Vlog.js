@@ -3,7 +3,7 @@ import '../style/vlog.css'
 import vlogDb from '../dbs/vlogDb'
 import ReactPlayer from 'react-player'
 
-let currentUrl = ''
+
 
 function Vlog() {
 
@@ -32,7 +32,7 @@ function Vlog() {
         setTempUrl(item.path)
     }
 
-console.log(currentUrl)
+
     return (
         <div className='vlog_container' >
             <h1 className='vlog_title'>VLOG</h1>
