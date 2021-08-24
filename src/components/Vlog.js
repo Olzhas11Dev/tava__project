@@ -36,7 +36,7 @@ function Vlog() {
     return (
         <div className='vlog_container' >
             <h1 className='vlog_title'>VLOG</h1>
-            <div className='vlogContainers'>
+            <div id="vlog"  className='vlogContainers'>
                {vlogDb.map((vlog)=>{
                    return (
                        <div key={vlog.id} className='oneVlog'  >

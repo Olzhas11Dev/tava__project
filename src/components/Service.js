@@ -36,7 +36,7 @@ function showDetails(element){
 }
 
     return (
-        <div className='service_container' >
+        <div id='service' className='service_container' >
            <div className='service_transparentTitle'>Our Services</div>
             <h1>What we <span>offer</span></h1>
             <div className='service_container_slider' >

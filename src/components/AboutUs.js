@@ -23,7 +23,7 @@ let squares = [
 function AboutUs() {
    
     return (
-        <div className='about_container' >
+        <div id='about_us' className='about_container' >
             <div className='about_left'>
                {squares.map((e)=>{
                    return (

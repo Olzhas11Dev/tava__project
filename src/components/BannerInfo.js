@@ -3,7 +3,7 @@ import '../style/bannerInfo.css'
 
 function BannerInfo() {
     return (
-        <div className='bannerInfo_container'>
+        <div  className='bannerInfo_container'>
             <img  className='bannerInfo_img' src="./image/Banner.jpg" alt=""/>
             <div className='bannerInfo_content' >
                 <h1>We provide </h1>
@@ -14,5 +14,4 @@ function BannerInfo() {
         </div>
     )
 }
-
 export default BannerInfo

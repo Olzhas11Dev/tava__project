@@ -4,7 +4,7 @@ import { FaFacebookF,FaInstagram,FaTwitter,FaYoutube } from 'react-icons/fa'
 
 function ContactUs() {
     return (
-        <div className='contactUs_main' >
+        <div id='contact_us' className='contactUs_main' >
             <h1 className='contact_title' >Contact Us</h1>
             <div className='contactUs_conctainer' >
                 <div className="contactUs_left">
@@ -22,7 +22,7 @@ function ContactUs() {
                 <div className="contactUs_right">  
                     <input type="text" placeholder='Your name*' />
                     <input type="text" placeholder='Your Phone*'/>
-                    <input type="text" placeholder='Your Email'/>
+                    <input type="text" placeholder='Your Email*'/>
                     <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
                     <button className='about_btn' >Send Message</button>
                 </div>

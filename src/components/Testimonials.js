@@ -50,7 +50,7 @@ function Testimonials() {
     }      
    console.log(dataBtn)
     return (
-        <div className='testimon_container' >
+        <div id="testimonials" className='testimon_container' >
            <div className='testimon_Left'>
            <img src="./image/testimonials-right.png" alt=""/>
            </div>

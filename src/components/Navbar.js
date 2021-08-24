@@ -13,13 +13,14 @@ function Navbar() {
     window.addEventListener('resize',closeMenu)
 
     return (
-        <div className="navbar" >
+        <div id='home' className="navbar" >
             <div className='navbar_logo' >Logo</div>
                 <ul className={toggle ? 'header_toggle' :'navbar_links' } >
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Service</a></li>
-                    <li><a href="/">Testimonials</a></li>
-                    <li><a href="/">Vlog</a></li>
+                    <li><a href="#about_us">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#vlog">Vlog</a></li>
+                    <li><a href="#contact_us">Contact Us</a></li>
                     <li className='navbar_close' onClick={()=>setToggle(!toggle)} >x</li>
                 </ul>
 

@@ -2,6 +2,7 @@
 import AboutUs from './components/AboutUs'
 import BannerInfo from './components/BannerInfo'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
 import Testimonials from './components/Testimonials'
@@ -18,6 +19,7 @@ function App() {
       <Testimonials/>
       <Vlog/>
       <ContactUs/>
+      <Footer/>
     </div>
   );
 }
