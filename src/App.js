@@ -6,8 +6,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
 import Testimonials from './components/Testimonials'
-import Vlog from './components/Vlog'
-
+import YoutubePage from './components/YoutubePage'
 
 function App() {
   return (
@@ -17,9 +16,10 @@ function App() {
       <AboutUs/>
       <Service/>
       <Testimonials/>
-      <Vlog/>
+      <YoutubePage/>
       <ContactUs/>
       <Footer/>
+     
     </div>
   );
 }

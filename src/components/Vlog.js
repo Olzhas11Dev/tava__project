@@ -17,7 +17,7 @@ function Vlog() {
       }, [modal]);
     
 
-     // When we clock outside it closes 
+     // When we click outside it closes 
    useEffect(()=>{
        let handler = document.addEventListener('mousedown',function(){
            setModal(false)
