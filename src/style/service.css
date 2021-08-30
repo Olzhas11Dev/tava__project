@@ -140,6 +140,68 @@
 /* Media */
 @media (max-width: 1000px) {
   .service_card {
-    min-width: 50%;
+    min-width: 49%;
+  }
+  .service_transparentTitle {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .service_transparentTitle {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .service_card {
+    min-width: 99%;
+  }
+  .service_icon {
+    width: 60px;
+    height: 60px;
+  }
+  .service_transparentTitle {
+    font-size: 40px;
+  }
+  .service_container h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .service_btn_slider {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .service_container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  /* Modal */
+  .modal_title {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .modal_description {
+    padding-left: 0;
+    /* text-align: center; */
+    margin: 70px auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  .service_card {
+    min-width: 98.7%;
+    height: 270px;
+  }
+}
+
+@media (max-width: 330px) {
+  .service_card {
+    min-width: 98.7%;
+    height: 250px;
   }
 }
