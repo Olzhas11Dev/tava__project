@@ -15,14 +15,14 @@ const[chosenObject,setChosenObject] = useState('')
  function handleToLeft (e){
      e.preventDefault()
     //  console.log(slider.current.offsetWidth)
-     slider.current.scrollLeft -= slider.current.offsetWidth/4
+     slider.current.scrollLeft -= slider.current.offsetWidth
     //  console.log(slider.current.scrollLeft)
  }
 
  function handleToRight (e){
     e.preventDefault()
     // console.log(slider.current.scrollLeft)
-    slider.current.scrollLeft += slider.current.offsetWidth/4
+    slider.current.scrollLeft += slider.current.offsetWidth
 }
 
 function showDetails(element){
@@ -34,6 +34,8 @@ function showDetails(element){
      return item
    })
 }
+
+
 
     return (
         <div id='service' className='service_container' >

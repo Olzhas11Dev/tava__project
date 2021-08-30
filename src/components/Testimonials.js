@@ -52,7 +52,7 @@ function Testimonials() {
     return (
         <div id="testimonials" className='testimon_container' >
            <div className='testimon_Left'>
-           <img src="./image/testimonials-right.png" alt=""/>
+           <img src="./image/Right_Tava.png" alt=""/>
            </div>
            <div className='testimon_review'>
                <h1 className='testim_title' >Testimonials</h1>
@@ -76,7 +76,7 @@ function Testimonials() {
             </div>
            </div>
            <div className='testimon_right'>
-               <img src="./image/testimonials-left.png" alt=""/>
+               <img src="./image/Left_Tava.png" alt=""/>
            </div>
         </div>
     )

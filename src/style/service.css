@@ -136,3 +136,10 @@
   padding-left: 40px;
   margin-top: 40px;
 }
+
+/* Media */
+@media (max-width: 1000px) {
+  .service_card {
+    min-width: 50%;
+  }
+}
