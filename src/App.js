@@ -17,8 +17,8 @@ function App() {
       <Service/>
       <Testimonials/>
       <YoutubePage/>
-      {/* <ContactUs/>
-      <Footer/> */}
+      <ContactUs/>
+      {/* <Footer/> */}
      
     </div>
   );
