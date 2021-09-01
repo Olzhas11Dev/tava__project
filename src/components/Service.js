@@ -1,4 +1,4 @@
-import React,{ useRef,useState} from 'react'
+import React,{ useRef,useState,useEffect} from 'react'
 import '../style/service.css'
 import serviceDb from'../serviceDb'
 import { BsArrowLeft,BsArrowRight } from 'react-icons/bs' 
@@ -11,6 +11,21 @@ function Service() {
 const slider = useRef(null)
 const[modal,setModal] = useState(false)
 const[chosenObject,setChosenObject] = useState('')
+
+    useEffect(() => {
+        if (modal) document.body.classList.add('overflow-hidden');
+        else document.body.classList.remove('overflow-hidden');
+      }, [modal]);
+    
+
+    useEffect(()=>{
+         let handler = document.addEventListener('mousedown',function(event){
+          setModal(false)
+        })
+        return document.removeEventListener('mousedown',handler)
+    })
+
+    
 
  function handleToLeft (e){
      e.preventDefault()
@@ -34,8 +49,6 @@ function showDetails(element){
      return item
    })
 }
-
-
 
     return (
         <div id='service' className='service_container' >
@@ -62,7 +75,7 @@ function showDetails(element){
                <div className='service_modal_conatiner' >
                 <h2 className='modal_title' >{chosenObject.title}</h2>
                 <p className='modal_description' >{chosenObject.description}</p>
-                <AiOutlineCloseCircle className='modal_close_button' onClick={()=>setModal(false)}/>
+                {/* <AiOutlineCloseCircle className='modal_close_button' onClick={()=>setModal(false)}/> */}
                 
             </div>
             </div>:null}
