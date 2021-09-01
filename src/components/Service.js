@@ -18,12 +18,12 @@ const[chosenObject,setChosenObject] = useState('')
       }, [modal]);
     
 
-    useEffect(()=>{
-         let handler = document.addEventListener('mousedown',function(event){
-          setModal(false)
-        })
-        return document.removeEventListener('mousedown',handler)
-    })
+    // useEffect(()=>{
+    //      let handler = document.addEventListener('mousedown',function(event){
+    //       setModal(false)
+    //     })
+    //     return document.removeEventListener('mousedown',handler)
+    // })
 
     
 
@@ -75,7 +75,7 @@ function showDetails(element){
                <div className='service_modal_conatiner' >
                 <h2 className='modal_title' >{chosenObject.title}</h2>
                 <p className='modal_description' >{chosenObject.description}</p>
-                {/* <AiOutlineCloseCircle className='modal_close_button' onClick={()=>setModal(false)}/> */}
+                <AiOutlineCloseCircle className='modal_close_button' onClick={()=>setModal(false)}/>
                 
             </div>
             </div>:null}

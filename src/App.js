@@ -18,8 +18,7 @@ function App() {
       <Testimonials/>
       <YoutubePage/>
       <ContactUs/>
-      {/* <Footer/> */}
-     
+      <Footer/>
     </div>
   );
 }
