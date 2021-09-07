@@ -16,11 +16,11 @@ function Navbar() {
         <div id='home' className="navbar" >
             <div className='navbar_logo' >Logo</div>
                 <ul className={toggle ? 'header_toggle' :'navbar_links' } >
-                    <li><a href="#about_us">About</a></li>
-                    <li><a href="#service">Service</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#vlog">Vlog</a></li>
-                    <li><a href="#contact_us">Contact Us</a></li>
+                    <li onClick={()=>setToggle(false)} ><a href="#about_us">About</a></li>
+                    <li onClick={()=>setToggle(false)} ><a href="#service">Service</a></li>
+                    <li onClick={()=>setToggle(false)}><a href="#testimonials">Testimonials</a></li>
+                    <li onClick={()=>setToggle(false)}><a href="#vlog">Vlog</a></li>
+                    <li onClick={()=>setToggle(false)}><a href="#contact_us">Contact Us</a></li>
                     <li className='navbar_close' onClick={()=>setToggle(!toggle)} >x</li>
                 </ul>
 

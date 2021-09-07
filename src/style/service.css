@@ -137,6 +137,11 @@
   margin-top: 40px;
 }
 
+.service_overflow-hidden {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 /* Media */
 @media (max-width: 1000px) {
   .service_card {
@@ -150,6 +155,9 @@
 @media (max-width: 700px) {
   .service_transparentTitle {
     font-size: 60px;
+  }
+  .service_modal_conatiner {
+    width: 80%;
   }
 }
 
@@ -184,6 +192,10 @@
     text-align: center;
   }
 
+  .modal_close_button {
+    width: 20px;
+  }
+
   .modal_description {
     padding-left: 0;
     /* text-align: center; */
@@ -203,5 +215,34 @@
   .service_card {
     min-width: 98.7%;
     height: 250px;
+  }
+  .service_modal_conatiner {
+    margin: 85px auto;
+  }
+}
+
+/* Media Height */
+
+@media (max-height: 440px) {
+  .service_modal_conatiner {
+    height: 300px;
+    margin: 8% auto;
+  }
+  .modal_close_button {
+    width: 20px;
+  }
+}
+
+@media (max-height: 375px) {
+  .service_modal_conatiner {
+    height: 300px;
+    margin: 6% auto;
+  }
+}
+
+@media (max-height: 330px) {
+  .service_modal_conatiner {
+    height: 300px;
+    margin: 2% auto;
   }
 }

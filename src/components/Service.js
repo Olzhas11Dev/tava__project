@@ -13,8 +13,8 @@ const[modal,setModal] = useState(false)
 const[chosenObject,setChosenObject] = useState('')
 
     useEffect(() => {
-        if (modal) document.body.classList.add('overflow-hidden');
-        else document.body.classList.remove('overflow-hidden');
+        if (modal) document.body.classList.add('service_overflow-hidden');
+        else document.body.classList.remove('service_overflow-hidden');
       }, [modal]);
     
 
