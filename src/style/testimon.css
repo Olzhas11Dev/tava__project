@@ -9,7 +9,7 @@
 .testimon_right {
   width: 20%;
   background-color: rgb(236, 236, 236);
-  opacity: 90%;
+  opacity: 0.8 !important;
   overflow: hidden;
 }
 
