@@ -121,4 +121,8 @@ textarea {
   .contact_title {
     font-size: 60px;
   }
+  .conatct_socials_icons a {
+    width: 45px;
+    height: 45px;
+  }
 }

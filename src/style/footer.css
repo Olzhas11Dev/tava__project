@@ -79,3 +79,23 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 700px) {
+  .footer_main {
+    padding-top: 30px;
+  }
+  .footer_right h1,
+  .footer_left h1 {
+    font-size: 1.5em;
+    margin-bottom: 14px;
+  }
+  .footer_address,
+  .footer_call,
+  .footer_email {
+    font-size: 10px;
+    margin-bottom: 14px;
+  }
+  .footer_right a {
+    font-size: 10px;
+  }
+}

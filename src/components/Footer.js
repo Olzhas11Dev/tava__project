@@ -35,7 +35,7 @@ function Footer() {
             </div>
            <div className='footer_copyright' >
              <div className='footer_copyright_logo'>Ⓒ</div>
-             <div>Copyright</div>
+             <div>{new Date().getFullYear()} Copyright</div>
              
              </div>
         </div>
