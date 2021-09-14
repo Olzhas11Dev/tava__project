@@ -1,0 +1,53 @@
+const facebookDb = [
+    {
+        id:1,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F385577469873988%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:2,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F1942754462556899%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:3,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F429612125184934%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:4,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F10221706074374423%2F&show_text=false&width=267&t=0"
+    },
+    {
+        id:5,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F868635593745898%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:6,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F1994520770712191%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:7,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F491175498898825%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:8,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F2863074134023253%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:9,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F10221367890800045%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:10,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F10221677391777376%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:11,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F173552471582101%2F&show_text=false&width=267&t=0" 
+    },
+    {
+        id:12,
+        path:"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Ftavaujr.misikau%2Fvideos%2F10221705638283521%2F&show_text=false&width=267&t=0" 
+    }
+]
+
+export default facebookDb
+

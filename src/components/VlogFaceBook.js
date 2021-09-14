@@ -1,8 +1,9 @@
 import React,{ useState,useEffect } from 'react'
-import youtubeDb from '../dbs/youtubeDb'
-import '../style/youtube.css'
+import facebookDb from '../dbs/facebookDb'
+import '../style/vlogFaceBook.css'
 
-function YoutubePage() {
+
+function VlogFaceBook() {
     const[openModal,setOpenModal] = useState(false)
     const[link,setLink] = useState('')
 
@@ -25,22 +26,23 @@ function YoutubePage() {
         setOpenModal(true)
         setLink(link)
     }
+    
     return (
             <div className='youtube_container' >
                 <h1 id='vlog' className='youtube_title' >Vlog</h1>
-                <div className='youtubeList_main' >
-                    {youtubeDb.map((item)=>{
-                        return(
-                        <div key={item.id} className='youtube_item'>
-                            <iframe title={item.title} src={item.link} frameBorder="0"></iframe>
-                            <div onClick={()=>callModal(item.link)} className='youtube_mask'></div>
-                        </div>
-                        )
-                    })}
+                <div className='facebookList_main' >
+                     {facebookDb.map((e)=>{
+                return (
+                <div key={e.id} className='facebook_item'>
+                    <iframe  src={e.path} width="267" height="476" style={{border:"none",overflow:"hidden"}} scrolling="no" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+                    <div onClick={()=>callModal(e.path)} className='facebook_mask'></div>
+                </div>
+                    )
+                 })}
                     {openModal ?
-                    <div className='youtube_bg'>
-                            <div className="youtube_modal">
-                            <iframe title={link} className='youtube_modal_screen' src={link} frameBorder="0"></iframe>
+                    <div className='facebook_bg'>
+                            <div className="facebook_modal">
+                            <iframe title={link} className='facebook_modal_screen' src={link} frameBorder="0" allowFullScreen={true}></iframe>
                     </div>
                         </div> :null }
                     </div>
@@ -49,4 +51,4 @@ function YoutubePage() {
     )
 }
 
-export default YoutubePage
+export default VlogFaceBook
