@@ -3,7 +3,8 @@ import '../style/service.css'
 import serviceDb from'../serviceDb'
 import { BsArrowLeft,BsArrowRight } from 'react-icons/bs' 
 import { AiOutlineMedicineBox,AiOutlineCloseCircle } from 'react-icons/ai' 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Service() {
@@ -17,6 +18,9 @@ const[chosenObject,setChosenObject] = useState('')
         else document.body.classList.remove('service_overflow-hidden');
       }, [modal]);
     
+      useEffect(()=>{
+        AOS.init({duration:2000})
+       },[])
 
     // useEffect(()=>{
     //      let handler = document.addEventListener('mousedown',function(event){
@@ -52,8 +56,8 @@ function showDetails(element){
 
     return (
         <div id='service' className='service_container' >
-           <div className='service_transparentTitle'>Our Services</div>
-            <h1>What we <span>offer</span></h1>
+           <div data-aos="fade-up" className='service_transparentTitle'>Our Services</div>
+            <h1 data-aos="fade-up" >What we <span>offer</span></h1>
             <div className='service_container_slider' >
                 <BsArrowLeft className='service_btn_slider' onClick={handleToLeft}/>
                 <div className='service_row' ref={slider}>

@@ -1,15 +1,21 @@
-import React from 'react'
+import React ,{ useEffect }from 'react'
 import '../style/contact.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { FaFacebookF,FaInstagram,FaTwitter,FaYoutube } from 'react-icons/fa'
 
 function ContactUs() {
+
+    useEffect(()=>{
+        AOS.init()
+       },[])
     return (
         <div id='contact_us' className='contactUs_main' >
             <h1 className='contact_title' >Contact Us</h1>
             <div className='contactUs_conctainer' >
                 <div className="contactUs_left">
-                <h1 >Get In Touch <span>With Us</span></h1>
-                    <p> For general questions, please send us a message and we’ll get right back to you. You can also call us directly to speak with a member of our service team or insurance expert.</p>
+                <h1 data-aos="fade-right" data-aos-duration="2000" >Get In Touch <span>With Us</span></h1>
+                    <p data-aos="fade-right" data-aos-duration="2000" > For general questions, please send us a message and we’ll get right back to you. You can also call us directly to speak with a member of our service team or insurance expert.</p>
                     <div className='contact_fields' >Fields marked with a * are required.</div>
                     <div className='conatct_socials_icons' >
                         <a href="https://www.facebook.com/" target='blank' ><FaFacebookF/></a> 

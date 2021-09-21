@@ -3,8 +3,6 @@ import '../style/vlog.css'
 import vlogDb from '../dbs/vlogDb'
 import ReactPlayer from 'react-player'
 
-
-
 function Vlog() {
 
     const[modal,setModal] = useState(false)
@@ -24,8 +22,7 @@ function Vlog() {
        })
        return document.removeEventListener('mousedown',handler)
    })
-
-   
+ 
 
     const getVideo =(item)=>{
         setModal(true)
@@ -35,7 +32,7 @@ function Vlog() {
 
     return (
         <div className='vlog_container' >
-            <h1 className='vlog_title'>VLOG</h1>
+            <h1 data-aos="fade-up" className='vlog_title'>VLOG</h1>
             <div id="vlog"  className='vlogContainers'>
                {vlogDb.map((vlog)=>{
                    return (

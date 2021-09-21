@@ -32,6 +32,10 @@
   line-height: 1.5rem;
   font-weight: 300;
 }
+.bannerInfo_content div {
+  font-size: 20px;
+  margin-top: 40px;
+}
 
 @media (max-width: 1170px) {
   .bannerInfo_content {
@@ -125,7 +129,11 @@
   .bannerInfo_content h2 {
     font-size: 1.8rem;
   }
-
+  .bannerInfo_content div {
+    font-size: 0.6rem;
+    margin-top: 40px;
+    line-height: 1rem;
+  }
   .bannerInfo_content p {
     font-size: 0.6rem;
     margin-top: 30px;
@@ -139,10 +147,15 @@
     font-size: 1.5rem;
   }
 
-  .bannerInfo_content p {
+  /* .bannerInfo_content p {
     font-size: 0.6rem;
     margin-top: 30px;
     line-height: 0.8rem;
+  } */
+  .bannerInfo_content div {
+    font-size: 0.6rem;
+    margin-top: 30px;
+    line-height: 0.7rem;
   }
 }
 

@@ -67,7 +67,7 @@
   width: 80px;
   height: 80px;
   color: grey;
-  opacity: 30%;
+  opacity: 0.3 !important;
 }
 
 .service_service {

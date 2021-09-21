@@ -1,5 +1,7 @@
-import React from 'react'
+import React,{useEffect}from 'react'
 import '../style/aboutUs.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 let squares = [
     {
@@ -18,10 +20,10 @@ let squares = [
     }
 ]
 
-
-
 function AboutUs() {
-   
+    useEffect(()=>{
+        AOS.init({duration:2000})
+       },[])
     return (
         <div id='about_us' className='about_container' >
             <div className='about_left'>
@@ -44,17 +46,17 @@ function AboutUs() {
             </div > 
             <div className='about_right'>
                 <h2>About Us</h2>
-                <p>Results of test procedures processed on site are reported to the health care provider the same day during regular business hours. Testing and services available through our Laboratory include:</p>
+                <p data-aos="fade-left"  >Results of test procedures processed on site are reported to the health care provider the same day during regular business hours. Testing and services available through our Laboratory include:</p>
                 <section className='about_details' >
-                    <div className='about_list_details'> <span>✔</span> 
+                    <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
                     All reports for clients are made simple and easy to understand</div>
-                    <div className='about_list_details'> <span>✔</span> 
+                    <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
                     User- friendly website offers custom settings for each physician</div>
-                    <div className='about_list_details'> <span>✔</span> 
+                    <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
                     We customize panels to meet physician’s needs.</div>
-                    <div className='about_list_details'> <span>✔</span> 
+                    <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
                     We customize panels to meet physician’s needs.</div>
-                    <div className='about_list_details'> <span>✔</span> 
+                    <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
                     All reports for clients are made simple and easy to understand</div>
                 </section>
                 <a href="https://www.youtube.com/watch?v=rx8KuOt2IEM" target='blank'><button className='about_btn' > Watch About Us </button></a>
