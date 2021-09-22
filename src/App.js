@@ -4,8 +4,9 @@ import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Service from './components/Service'
+import SocialKit from './components/SocialKit'
 import Testimonials from './components/Testimonials'
-import VlogFaceBook from './components/VlogFaceBook'
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <AboutUs/>
       <Service/>
       <Testimonials/>
-      <VlogFaceBook/>
+      <SocialKit/>
       <ContactUs/>
       <Footer/>
     </div>

@@ -1,6 +1,6 @@
 import React,{ useRef,useState,useEffect} from 'react'
 import '../style/service.css'
-import serviceDb from'../serviceDb'
+import serviceDb from'../dbs/serviceDb'
 import { BsArrowLeft,BsArrowRight } from 'react-icons/bs' 
 import { AiOutlineMedicineBox,AiOutlineCloseCircle } from 'react-icons/ai' 
 import AOS from 'aos';
@@ -65,9 +65,8 @@ function showDetails(element){
                         return (
                             <div onClick={()=>showDetails(item)} key={item.id} className='service_card' >
                                 <AiOutlineMedicineBox className='service_icon' />
-                                <div className='service_title'>{item.title}</div>
-                                <div className='service_service'>{item.service}</div>
-                                
+                                <div className='service_title'>Service {item.id+1}</div>
+                                <div className='service_service'> Description </div>
                             </div>
                         )
                     })} 

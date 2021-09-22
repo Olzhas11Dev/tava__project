@@ -2,6 +2,7 @@ import React,{useEffect}from 'react'
 import '../style/aboutUs.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import photo from  '../../public/image/about_us.jpg'
 
 let squares = [
     {
@@ -27,7 +28,7 @@ function AboutUs() {
     return (
         <div id='about_us' className='about_container' >
             <div className='about_left'>
-               {squares.map((e)=>{
+               {/* {squares.map((e)=>{
                    return (
                        <div key={e.id}  className='about_square'>
                            <div className='aboutDefalt' >
@@ -42,7 +43,8 @@ function AboutUs() {
                         </div>
                        </div>
                    )
-               })}
+               })} */}
+               <img  src="./image/about_us.jpg" alt=""/>
             </div > 
             <div className='about_right'>
                 <h2>About Us</h2>

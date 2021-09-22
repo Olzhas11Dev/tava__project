@@ -1,5 +1,5 @@
 import React,{ useState,useRef } from 'react'
-import testimonDb from '../testimonDb'
+import testimonDb from '../dbs/testimonDb'
 import '../style/testimon.css'
 
 let radioBtn = [
@@ -62,7 +62,7 @@ function Testimonials() {
                        <div key={oneCard.id} className='testim_oneCard' >
                          <div  className='testimon_text_content'>{oneCard.review} </div>
                          <div className='testim_name' >-{oneCard.fullName}</div>
-                         <div className='testim_role'>-{oneCard.role}-</div>
+                         {/* <div className='testim_role'>-{oneCard.role}-</div> */}
                     </div>
                    )
                })}
