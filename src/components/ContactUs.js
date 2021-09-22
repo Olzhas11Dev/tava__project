@@ -1,14 +1,39 @@
-import React ,{ useEffect }from 'react'
+import React ,{ useEffect ,useState}from 'react'
 import '../style/contact.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FaFacebookF,FaInstagram,FaTwitter,FaYoutube } from 'react-icons/fa'
+import emailjs from 'emailjs-com'
 
 function ContactUs() {
+
+    const[firstName,setFirstName] = useState('')
+    const[alarm,setAlarm] = useState(false)
 
     useEffect(()=>{
         AOS.init()
        },[])
+
+       function sendEmail(e) {
+            e.preventDefault();
+        
+            if(firstName!==''){
+
+                emailjs.sendForm('service_pzn7wdc', 'template_ifsnjpp', e.target, 'user_WH70CXSZ5QV6LLpZWldSV')
+                .then((result) => {
+                    console.log(result.text);    
+                }, (error) => {
+                    console.log(error.text);
+                });
+                e.target.reset()
+
+                setAlarm (false)
+            } else{
+                setAlarm(true)
+            }
+            setFirstName('')
+      }
+
     return (
         <div id='contact_us' className='contactUs_main' >
             <h1 className='contact_title' >Contact Us</h1>
@@ -25,13 +50,17 @@ function ContactUs() {
                     </div>
                 </div>
                 
-                <div className="contactUs_right">  
-                    <input type="text" placeholder='Your name*' />
-                    <input type="text" placeholder='Your Phone*'/>
-                    <input type="text" placeholder='Your Email*'/>
-                    <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
-                    <button className='about_btn' >Send Message</button>
-                </div>
+                <form onSubmit={sendEmail} className="contactUs_right">  
+                    <div className="contactUs_inputs">
+                        <input style={{border: alarm && 'red 1px solid'}} onChange={(e)=>setFirstName(e.target.value)} type="text" placeholder='Your name*' name="name" value={firstName}/>
+                        <input type="text" placeholder='Your Phone*' name="phone"/>
+                        <input type="text" placeholder='Your Email*' name="email"/>
+                         <textarea name="" id="" cols="30" rows="10" placeholder='Message' name="message" ></textarea>
+                        <div className="alarm_inputs">{alarm && <div className='alam_text'>Please add the name</div> }</div>
+                    </div>
+                    {/* <button className='about_btn' >Send Message</button> */}
+                    <input  className='about_btn' type="text"type="submit" value="Send Message"/>
+                </form>
             </div>
         </div>
     )
