@@ -40,7 +40,7 @@ function ContactUs() {
             <div className='contactUs_conctainer' >
                 <div className="contactUs_left">
                 <h1 data-aos="fade-right" data-aos-duration="2000" >Get In Touch <span>With Us</span></h1>
-                    <p data-aos="fade-right" data-aos-duration="2000" > For general questions, please send us a message and we’ll get right back to you. You can also call us directly to speak with a member of our service team or insurance expert.</p>
+                    <p data-aos="fade-right" data-aos-duration="2000" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vel suscipit voluptate nostrum non, incidunt reiciendis dicta deleniti. Eveniet ut, architecto iure error officiis soluta rerum eaque cumque nemo non.</p>
                     <div className='contact_fields' >Fields marked with a * are required.</div>
                     <div className='conatct_socials_icons' >
                         <a href="https://www.facebook.com/" target='blank' ><FaFacebookF/></a> 

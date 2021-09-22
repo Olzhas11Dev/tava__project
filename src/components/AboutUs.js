@@ -48,18 +48,18 @@ function AboutUs() {
             </div > 
             <div className='about_right'>
                 <h2>About Us</h2>
-                <p data-aos="fade-left"  >Results of test procedures processed on site are reported to the health care provider the same day during regular business hours. Testing and services available through our Laboratory include:</p>
+                <p data-aos="fade-left"  >Lorem ipsum, dolor sit amet consectetur adipisicing elit. culpa similique provident optio nonr  illum totam officia! Officiis mollitia amet placeat</p>
                 <section className='about_details' >
                     <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
-                    All reports for clients are made simple and easy to understand</div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. culpa similique</div>
                     <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
-                    User- friendly website offers custom settings for each physician</div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. culpa similique</div>
                     <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
-                    We customize panels to meet physician’s needs.</div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit..</div>
                     <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
-                    We customize panels to meet physician’s needs.</div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. </div>
                     <div data-aos="fade-left"  className='about_list_details'> <span>✔</span> 
-                    All reports for clients are made simple and easy to understand</div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. culpa similique</div>
                 </section>
                 <a href="https://www.youtube.com/watch?v=rx8KuOt2IEM" target='blank'><button className='about_btn' > Watch About Us </button></a>
             </div>

@@ -1,21 +1,23 @@
 let testimonial = [
     {
         id:0,
-        review: "Today is my last day of infusion. But I know I will be back …not as a patient but a visitor. I have only positive things to say about the nurses at MedEra here ininfusion and also on the 4th Floor.",
-        fullName:'Tim Bakery',
-        role: 'Accounter'
+        review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quia sunt fugiat, quis necessitatibus iure voluptatum eveniet quaerat nisi vitae perferendis blanditiis maxime sapiente harum voluptatibus alias corporis laboriosam facilis! ",
+        fullName:'Amet Consectetur',
+        role: 'Consectetur'
     },
     {
         id:1,
-        review: "I would like to give you a special 'Thank You' to all of you for the care you've given. You were special to a part of our lives for the year we knew you all. You were very caring. Nurses like you are never forgotten. I just can't thank you enough.",
-        fullName:'Anjela Lui',
-        role: 'Buisness Manager'
+        review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quia sunt fugiat, quis necessitatibus iure voluptatum eveniet quaerat nisi vitae perferendis blanditiis maxime sapiente harum voluptatibus alias corporis laboriosam facilis! ",
+        fullName:'Rerum Quia',
+        role: 'Consectetur'
     },
     {
-        id:3,
-        review: "I have only positive things to say about the nurses at MedEra here ininfusion and also on the 4th Floor.",
-        fullName:'John Dollsan',
-        role: 'Developer'
-    }
+        id:2,
+        review: "Lorem ipsum dolor sit amet consectetur erferendis blanditiis maxime sapiente harum voluptatibus alias corporis laboriosam facilis! ",
+        fullName:'Dolor Sit',
+        role: 'Consectetur'
+    },
+   
 ]
+
 export default testimonial

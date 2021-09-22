@@ -1,76 +1,77 @@
 const serviceData = [
     {
         id:0,
-        title:'Pediatric Ortho', 
-        service: 'pediatric optometric',
-        description : "If you're ready for an alternative to glasses and/or contacts look to us for co-management of LASIK, cataract, and other ocular surgery."
+        title:'Lorim impsum', 
+        service: 'Dipisicing elit',
+        description : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, corporis dolorum?  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:1,
-        title:'Cataract treatement', 
-        service: 'Cataract diagnosis and treatement',
-        description : "The optometrists our practice provide eyewear prescriptions and offer corrective laser eye surgery co-management as well."
+        title:'Quibusdam dolorem corporis', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : "Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:2,
-        title:'Laser Eye surgery', 
-        service: 'Laser Eye and Lens surgery',
-        description : ' Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
+        title:'ipsum dolor sit amet consectetur', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : 'Lorem ipsum dolor sit amet consectetur. Quibusdam dolorem corporis aspernatur aut quisquam ut hic.Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic.'
     },
     {
         id:3,
-        title:'Pediatric Ortho', 
-        service: 'pediatric optometric',
-        description : "If you're ready for an alternative to glasses and/or contacts look to us for co-management of LASIK, cataract, and other ocular surgery."
+        title:'Quibusdam dolorem corporis', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : "Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:4,
-        title:'Cataract treatement', 
-        service: 'Cataract diagnosis and treatement',
-        description : 'Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
+        title:'Quibusdam dolorem', 
+        service: 'Illo, corporis dolorum?  Quibusdam dolorem',
+        description : ' Lorem ipsum dolor sit amet consectetur. Quibusdam dolorem corporis aspernatur aut quisquam ut hic.Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic.'
     },
     {
         id:5,
-        title:'Laser Eye surgery', 
-        service: 'Laser Eye and Lens surgery',
-        description : "We diagnose and manage ocular diseases such as Glaucoma, Macular Degeneration, Diabetic Retinopathy and Cataracts."
+        title:'Lorim impsum', 
+        service: 'Dipisicing elit',
+        description : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, corporis dolorum?  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:6,
-        title:'Pediatric Ortho', 
-        service: 'pediatric optometric',
-        description : "If you're ready for an alternative to glasses and/or contacts look to us for co-management of LASIK, cataract, and other ocular surgery."
+        title:'Quibusdam dolorem corporis', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : "Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:7,
-        title:'Cataract treatement', 
-        service: 'Cataract diagnosis and treatement',
-        description : "If you're ready for an alternative to glasses and/or contacts look to us for co-management of LASIK, cataract, and other ocular surgery."
+        title:'Aspernatur aut quisquam ut hic', 
+        service: 'Laser Eye and Lens surgery',
+        description : ' Lorem ipsum dolor sit amet consectetur. Quibusdam dolorem corporis aspernatur aut quisquam ut hic.Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic.'
     },
     {
         id:8,
-        title:'Laser Eye surgery', 
-        service: 'Laser Eye and Lens surgery',
-        description : ' Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
+        title:'Quibusdam dolorem corporis', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : "Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:9,
-        title:'Pediatric Ortho', 
-        service: 'pediatric optometric',
-        description : 'Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
+        title:'Aspernatur aut', 
+        service: 'dolorem corporis aspernatur aut',
+        description : ' Lorem ipsum dolor sit amet consectetur. Quibusdam dolorem corporis aspernatur aut quisquam ut hic.Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic.'
     },
     {
         id:10,
-        title:'Cataract treatement', 
-        service: 'Cataract diagnosis and treatement',
-        description : 'Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
+        title:'Quibusdam dolorem corporis', 
+        service: 'Lorem ipsum dolor sit amet consectetur',
+        description : "Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic."
     },
     {
         id:11,
-        title:'Laser Eye surgery', 
-        service: 'Laser Eye and Lens surgery',
-        description : ' Our eye care center offers a full range of eye health services to clients of all ages, from children to older adults'
-    }
+        title:'Corporis aspernatur aut', 
+        service: 'Dolorem corporis aspernatur aut',
+        description :'Lorem ipsum dolor sit amet consectetur. Quibusdam dolorem corporis aspernatur aut quisquam ut hic.Lorem ipsum dolor sit amet consectetur,  Quibusdam dolorem corporis aspernatur aut quisquam ut hic.'
+    },
+
 ]
 
 export default serviceData

@@ -12,8 +12,8 @@ function BannerInfo() {
         <div  className='bannerInfo_container'>
             <img  className='bannerInfo_img' src="./image/Banner.jpg" alt=""/>
             <div  className='bannerInfo_content' >  
-                    <h1  data-aos="fade-left" >We provide </h1>
-                    <h2 data-aos="fade-right">Full medical care</h2>        
+                    <h1  data-aos="fade-left" >Lo ipsum</h1>
+                    <h2 data-aos="fade-right">Lorem dolor amet</h2>        
                 <p data-aos="fade-left" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo reprehenderit earum itaque dolor. 
                 Repudiandae eaque ipsa deserunt labore totam odio iure. Alias ex, cum rerum nobis repellat iusto hic.</p>
             </div>
