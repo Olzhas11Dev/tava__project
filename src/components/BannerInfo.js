@@ -2,7 +2,6 @@ import {useEffect} from 'react'
 import '../style/bannerInfo.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Typewriter from "typewriter-effect"
 
 function BannerInfo() {
    useEffect(()=>{

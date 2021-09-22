@@ -127,6 +127,7 @@
   color: white;
   border-radius: 50px;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .about_btn:hover {

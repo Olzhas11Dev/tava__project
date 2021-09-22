@@ -4,22 +4,22 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import photo from  '../../public/image/about_us.jpg'
 
-let squares = [
-    {
-        id:1,
-        title: 'Latest Equipment'
-    },
-    {
-        id:2,
-        title: 'Quality Service'
-    }, {
-        id:3,
-        title: 'Skilled Team'
-    }, {
-        id:4,
-        title: 'Positive Reviews'
-    }
-]
+// let squares = [
+//     {
+//         id:1,
+//         title: 'Latest Equipment'
+//     },
+//     {
+//         id:2,
+//         title: 'Quality Service'
+//     }, {
+//         id:3,
+//         title: 'Skilled Team'
+//     }, {
+//         id:4,
+//         title: 'Positive Reviews'
+//     }
+// ]
 
 function AboutUs() {
     useEffect(()=>{
