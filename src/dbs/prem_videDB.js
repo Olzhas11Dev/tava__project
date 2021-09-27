@@ -1,7 +1,7 @@
 const premVidDB = [
     {  
         id:1,
-        path:"https://www.youtube.com/embed/bpVRWrrfM1M",
+        path:"https://www.youtube.com/embed/JkaxUblCGz0",
         title:"Loreom Ipsum"
     },
     {  
@@ -11,12 +11,12 @@ const premVidDB = [
     },
     {  
         id:3,
-        path:"https://www.youtube.com/embed/bpVRWrrfM1M",
+        path:"https://www.youtube.com/embed/ZAkyMUWy_ec",
         title:"Loreom Ipsum"
     },
     {  
         id:4,
-        path:"https://www.youtube.com/embed/bpVRWrrfM1M",
+        path:"https://www.youtube.com/embed/JkaxUblCGz0",
         title:"Loreom Ipsum"
     },
     {  
@@ -26,7 +26,7 @@ const premVidDB = [
     }, 
     {  
         id:6,
-        path:"https://www.youtube.com/embed/bpVRWrrfM1M",
+        path:"https://www.youtube.com/embed/JkaxUblCGz0",
         title:"Loreom Ipsum"
     },
     {  
@@ -53,3 +53,4 @@ const premVidDB = [
 ]
 
 export default premVidDB
+
