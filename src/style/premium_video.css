@@ -116,7 +116,8 @@
     height: 241px;
   }
   .premium_modal {
-    margin-top: 140px;
+    margin-top: 180px;
+    height: 162px;
   }
 }
 
@@ -136,6 +137,8 @@
 
 @media (max-height: 320px) {
   .premium_modal {
-    height: 330px;
+    margin-top: 40px;
+    width: 70%;
+    height: 220px;
   }
 }
